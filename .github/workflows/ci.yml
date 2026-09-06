@@ -18,11 +18,6 @@ jobs:
           sudo apt update
           sudo apt install -y build-essential wget unzip
 
-      - name: Clone and factor external
-        run: |
-          chmod +x format_external.sh
-          ./format_external.sh
-
       - name: Download premake5
         run: |
           wget https://github.com/premake/premake-core/releases/download/v5.0.0-alpha16/premake-5.0.0-alpha16-linux.tar.gz

@@ -1,12 +1,2 @@
 [submodule "MossCore"]
 	branch = main
-
-[submodule "external/entt"]
-    path = include/entt
-    url = https://github.com/skypjack/entt
-    shallow = true
-
-[submodule "external/spdlog"]
-    path = include/spdlog
-    url = https://github.com/gabime/spdlog
-    shallow = true

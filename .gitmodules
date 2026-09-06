@@ -2,7 +2,7 @@
 	branch = main
 
 [submodule "external/entt"]
-    path = inlcude/entt
+    path = include/entt
     url = https://github.com/skypjack/entt
     shallow = true
 

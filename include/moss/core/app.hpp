@@ -11,7 +11,6 @@
 
 #pragma once
 
-#include "moss/core/key.hpp"
 #include <moss/meta/logs.hpp>
 #include <moss/core/context.hpp>
 #include <moss/core/mirror.hpp>
@@ -88,7 +87,7 @@ public:
 private:
     std::vector<std::unique_ptr<Context>> m_contexts;
     entt::registry m_registry;
-    bool m_quit;
+    bool m_quit = false;
 };
 
 }
